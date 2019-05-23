@@ -1,0 +1,99 @@
+
+2019-05-23 00:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 00:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 01:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 01:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 02:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 02:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 03:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 03:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 04:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 04:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 05:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 05:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 06:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 06:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 07:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 07:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 08:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 08:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 09:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 09:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 10:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 10:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  [2] sessions were stopped.
+
+2019-05-23 11:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 11:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  [2] sessions were stopped.
+
+2019-05-23 12:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 12:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 13:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 13:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 14:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 14:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-23 15:03:26
+[INFO]-[Thread: http-nio-8081-exec-7]-[cn.edu.seu.driverserver.controller.UserController.doLogin()]: null>>>login
+
+2019-05-23 15:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-23 15:05:54
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.

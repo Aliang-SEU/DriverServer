@@ -1,0 +1,138 @@
+
+2019-05-19 18:06:10
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-19 18:06:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 16340 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-19 18:06:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-19 18:06:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-19 18:06:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-19 18:06:11
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'shiroConfig' of type [cn.edu.seu.driverserver.config.ShiroConfig$$EnhancerBySpringCGLIB$$d5757bf1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:11
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ea9b128] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$717e0258] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'userMapper' of type [com.sun.proxy.$Proxy58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'peersMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'peersMapper' of type [com.sun.proxy.$Proxy62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'userServiceImpl' of type [cn.edu.seu.driverserver.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'customRealm' of type [cn.edu.seu.driverserver.config.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:12
+[INFO]-[Thread: restartedMain]-[org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization()]: Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-05-19 18:06:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-19 18:06:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2558 ms
+
+2019-05-19 18:06:13
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-19 18:06:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-19 18:06:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-19 18:06:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-19 18:06:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 3.754 seconds (JVM running for 5.374)
+
+2019-05-19 18:06:23
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-19 18:06:23
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 8 ms
+
+2019-05-19 18:06:23
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.enableSessionValidation()]: Enabling session validation scheduler...
+
+2019-05-19 18:06:26
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-19 18:06:26
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-19 18:06:26
+[INFO]-[Thread: http-nio-8081-exec-4]-[cn.edu.seu.driverserver.controller.UserController.doLogin()]: null>>>login
+
+2019-05-19 19:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-19 19:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  [1] sessions were stopped.
+
+2019-05-19 20:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-19 20:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-19 21:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-19 21:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-19 22:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-19 22:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.
+
+2019-05-19 23:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Validating all active sessions...
+
+2019-05-19 23:06:23
+[INFO]-[Thread: SessionValidationThread-1]-[org.apache.shiro.session.mgt.AbstractValidatingSessionManager.validateSessions()]: Finished session validation.  No sessions were stopped.

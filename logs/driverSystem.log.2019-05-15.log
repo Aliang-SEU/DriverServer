@@ -1,0 +1,1972 @@
+
+2019-05-15 10:28:46
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:28:46
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 12576 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:28:46
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:28:46
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:28:46
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:28:47
+[WARN]-[Thread: restartedMain]-[org.mybatis.spring.mapper.ClassPathMapperScanner.doScan()]: No MyBatis mapper was found in '[cn.edu.seu.driverserver]' package. Please check your configuration.
+
+2019-05-15 10:28:49
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:28:49
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2754 ms
+
+2019-05-15 10:28:49
+[WARN]-[Thread: restartedMain]-[org.springframework.context.support.AbstractApplicationContext.refresh()]: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.edu.seu.driverserver.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+
+2019-05-15 10:28:49
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage()]: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+2019-05-15 10:28:49
+[ERROR]-[Thread: restartedMain]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report()]: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in cn.edu.seu.driverserver.service.Impl.UserServiceImpl required a bean of type 'cn.edu.seu.driverserver.mapper.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'cn.edu.seu.driverserver.mapper.UserMapper' in your configuration.
+
+
+2019-05-15 10:29:36
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:29:40
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:29:40
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 16324 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:29:40
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:29:40
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:29:40
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:29:43
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:29:43
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2746 ms
+
+2019-05-15 10:29:43
+[WARN]-[Thread: restartedMain]-[org.springframework.context.support.AbstractApplicationContext.refresh()]: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'peersMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.edu.seu.driverserver.mapper.PeersMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+
+2019-05-15 10:29:43
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage()]: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+2019-05-15 10:29:44
+[ERROR]-[Thread: restartedMain]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report()]: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field peersMapper in cn.edu.seu.driverserver.service.Impl.UserServiceImpl required a bean of type 'cn.edu.seu.driverserver.mapper.PeersMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'cn.edu.seu.driverserver.mapper.PeersMapper' in your configuration.
+
+
+2019-05-15 10:30:55
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:30:55
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 13560 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:30:55
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:30:55
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:30:55
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:30:58
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:30:58
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2721 ms
+
+2019-05-15 10:30:58
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:30:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:30:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:30:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:30:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 4.288 seconds (JVM running for 5.0)
+
+2019-05-15 10:31:15
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 10:31:15
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 9 ms
+
+2019-05-15 10:31:25
+[INFO]-[Thread: http-nio-8081-exec-2]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 10:31:25
+[INFO]-[Thread: http-nio-8081-exec-2]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 10:35:53
+[INFO]-[Thread: Thread-6]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:35:53
+[INFO]-[Thread: Thread-6]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 10:35:53
+[INFO]-[Thread: Thread-6]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 10:35:53
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:35:53
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:35:53
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 13560 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:35:53
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 749 ms
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 1.103 seconds (JVM running for 300.307)
+
+2019-05-15 10:35:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 10:36:09
+[INFO]-[Thread: Thread-10]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:36:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:36:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:36:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 13560 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:36:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:36:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:36:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 857 ms
+
+2019-05-15 10:36:11
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:36:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:36:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:36:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:36:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 1.223 seconds (JVM running for 316.91)
+
+2019-05-15 10:36:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 10:36:12
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:36:12
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 14576 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:36:12
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:36:12
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:36:12
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:36:18
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:36:19
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 9680 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:36:19
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:36:19
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:36:19
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:36:21
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:36:22
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2959 ms
+
+2019-05-15 10:36:22
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:36:22
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:36:23
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:36:23
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:36:23
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 4.427 seconds (JVM running for 5.259)
+
+2019-05-15 10:36:38
+[INFO]-[Thread: http-nio-8081-exec-2]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 10:36:38
+[INFO]-[Thread: http-nio-8081-exec-2]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 8 ms
+
+2019-05-15 10:36:44
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 10:36:46
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 10:37:09
+[ERROR]-[Thread: http-nio-8081-exec-4]-[org.thymeleaf.TemplateEngine.process()]: [THYMELEAF][http-nio-8081-exec-4] Exception processing template "doInstall": Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-15 10:41:37
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:41:37
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 7764 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:41:37
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:41:37
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:41:37
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:41:39
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:41:40
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2650 ms
+
+2019-05-15 10:41:40
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:41:40
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:41:41
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:41:41
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:41:41
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 4.29 seconds (JVM running for 5.109)
+
+2019-05-15 10:41:44
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 10:41:44
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 11 ms
+
+2019-05-15 10:41:46
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 10:41:46
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 10:44:02
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:44:03
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 14116 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:44:03
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:44:03
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:44:03
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:44:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:44:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2676 ms
+
+2019-05-15 10:44:06
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:44:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:44:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:44:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:44:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 4.134 seconds (JVM running for 4.912)
+
+2019-05-15 10:46:16
+[INFO]-[Thread: Thread-6]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:46:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:46:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:46:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 14116 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:46:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:46:17
+[WARN]-[Thread: restartedMain]-[org.mybatis.spring.mapper.ClassPathMapperScanner.doScan()]: No MyBatis mapper was found in '[cn.edu.seu.driverserver]' package. Please check your configuration.
+
+2019-05-15 10:46:17
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:46:17
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 1078 ms
+
+2019-05-15 10:46:18
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:46:18
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:46:18
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:46:18
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:46:18
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 1.814 seconds (JVM running for 136.599)
+
+2019-05-15 10:46:18
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 10:46:20
+[INFO]-[Thread: Thread-10]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:46:21
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:46:21
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:46:21
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 14116 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:46:21
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:46:21
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:46:21
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 697 ms
+
+2019-05-15 10:46:22
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:46:22
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:46:22
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:46:22
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:46:22
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 1.047 seconds (JVM running for 140.133)
+
+2019-05-15 10:46:22
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 10:50:24
+[INFO]-[Thread: Thread-16]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:50:25
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:50:25
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:50:25
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 14116 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:50:25
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:50:25
+[WARN]-[Thread: restartedMain]-[org.mybatis.spring.mapper.ClassPathMapperScanner.doScan()]: No MyBatis mapper was found in '[cn.edu.seu.driverserver]' package. Please check your configuration.
+
+2019-05-15 10:50:25
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:50:25
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 750 ms
+
+2019-05-15 10:50:25
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:50:26
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:50:26
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:50:26
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:50:26
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 1.412 seconds (JVM running for 384.358)
+
+2019-05-15 10:50:26
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 10:50:27
+[INFO]-[Thread: Thread-22]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:50:28
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:50:28
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:50:28
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 14116 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:50:28
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:50:29
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:50:30
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 1752 ms
+
+2019-05-15 10:50:30
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 10:50:30
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 10:50:30
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:50:30
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:50:30
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:50:30
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:50:30
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 2.205 seconds (JVM running for 388.552)
+
+2019-05-15 10:50:30
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 10:50:30
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 10:50:30
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13e344d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ffaf86, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6574a52c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6c1a5b54, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c7696c6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@60099951, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@20140db9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55a147cc]
+
+2019-05-15 10:50:30
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:50:31
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 10080 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:50:31
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:50:34
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:50:34
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:50:34
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 4.091 seconds (JVM running for 5.773)
+
+2019-05-15 10:50:38
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 10:50:40
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 10:50:42
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:50:42
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 10:50:42
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 10:56:09
+[INFO]-[Thread: Thread-28]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:56:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 10:56:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 10:56:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 14116 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:56:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 494 ms
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 0.735 seconds (JVM running for 728.558)
+
+2019-05-15 10:56:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 10:56:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 10:56:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 10:56:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 10:56:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13e344d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ffaf86, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6574a52c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6c1a5b54, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c7696c6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@60099951, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@20140db9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55a147cc]
+
+2019-05-15 10:56:17
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 10:56:18
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 14628 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 10:56:18
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 10:56:20
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:56:20
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 10:56:21
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 3.452 seconds (JVM running for 4.722)
+
+2019-05-15 10:56:26
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 10:56:28
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 10:56:31
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 10:56:31
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 10:56:31
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 11:29:33
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 11:29:33
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 11:29:34
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 11:29:34
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13e344d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ffaf86, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6574a52c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6c1a5b54, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c7696c6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@60099951, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@20140db9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6a3214, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@55a147cc]
+
+2019-05-15 11:29:34
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 11:29:34
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 16324 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 11:29:34
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 11:29:37
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:29:37
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 11:29:37
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 3.477 seconds (JVM running for 4.735)
+
+2019-05-15 11:29:42
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 11:29:43
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 11:29:43
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:29:43
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 11:29:43
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 11:30:59
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 11:30:59
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 11:30:59
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 11:30:59
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ffaf86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c7696c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60099951, org.springframework.test.context.transaction.TransactionalTestExecutionListener@20140db9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e6a3214, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71ba6d4e]
+
+2019-05-15 11:30:59
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 11:30:59
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 13240 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 11:30:59
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 11:31:02
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:31:02
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 11:31:02
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 3.496 seconds (JVM running for 4.675)
+
+2019-05-15 11:31:03
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 11:31:03
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 11:32:21
+[WARN]-[Thread: HikariPool-1 housekeeper]-[com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run()]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m47s945ms339µs400ns).
+
+2019-05-15 11:32:27
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 11:32:27
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 11:32:27
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 11:32:27
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ffaf86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c7696c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60099951, org.springframework.test.context.transaction.TransactionalTestExecutionListener@20140db9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e6a3214, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71ba6d4e]
+
+2019-05-15 11:32:27
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 11:32:27
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 3404 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 11:32:27
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 11:32:30
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:32:30
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 11:32:30
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 3.423 seconds (JVM running for 4.604)
+
+2019-05-15 11:32:31
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 11:32:31
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 11:32:32
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:32:32
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 11:32:32
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 11:34:22
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 11:34:22
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 11:34:23
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 11:34:23
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ffaf86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c7696c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60099951, org.springframework.test.context.transaction.TransactionalTestExecutionListener@20140db9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e6a3214, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71ba6d4e]
+
+2019-05-15 11:34:23
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 11:34:23
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 15080 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 11:34:23
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 11:34:25
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:34:26
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 11:34:26
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 3.306 seconds (JVM running for 4.538)
+
+2019-05-15 11:34:26
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 11:34:27
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 11:34:31
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:34:31
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 11:34:31
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 11:34:56
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 11:34:56
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 11:34:56
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 11:34:56
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ffaf86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c7696c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60099951, org.springframework.test.context.transaction.TransactionalTestExecutionListener@20140db9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e6a3214, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71ba6d4e]
+
+2019-05-15 11:34:56
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 11:34:56
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 2584 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 11:34:56
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 11:34:59
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:34:59
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 11:35:00
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 3.929 seconds (JVM running for 5.149)
+
+2019-05-15 11:35:00
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 11:35:01
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 11:35:04
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 11:35:04
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 11:35:04
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 16:33:40
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 16:33:40
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 16:33:41
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 16:33:41
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ffaf86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c7696c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60099951, org.springframework.test.context.transaction.TransactionalTestExecutionListener@20140db9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e6a3214, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71ba6d4e]
+
+2019-05-15 16:33:41
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 16:33:41
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 9568 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:33:41
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:33:43
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:33:44
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:33:44
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 3.183 seconds (JVM running for 4.425)
+
+2019-05-15 16:33:44
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 16:33:45
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 16:34:07
+[WARN]-[Thread: HikariPool-1 housekeeper]-[com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run()]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s152ms89µs).
+
+2019-05-15 16:34:07
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:34:07
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 16:34:07
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 16:45:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration()]: Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest], using SpringBootContextLoader
+
+2019-05-15 16:45:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations()]: Could not detect default resource locations for test class [cn.edu.seu.driverserver.mapper.PeersMapperTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+2019-05-15 16:45:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames()]: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+2019-05-15 16:45:17
+[INFO]-[Thread: main]-[org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners()]: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ffaf86, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6574a52c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c1a5b54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c7696c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60099951, org.springframework.test.context.transaction.TransactionalTestExecutionListener@20140db9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e6a3214, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@368247b9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a6d8329, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a942c18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55a147cc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71ba6d4e]
+
+2019-05-15 16:45:17
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 16:45:17
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting PeersMapperTest on DESKTOP-ALCHGHN with PID 7236 (started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:45:17
+[INFO]-[Thread: main]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:45:20
+[INFO]-[Thread: main]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:45:21
+[INFO]-[Thread: main]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:45:21
+[INFO]-[Thread: main]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started PeersMapperTest in 4.077 seconds (JVM running for 6.091)
+
+2019-05-15 16:45:21
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 16:45:22
+[INFO]-[Thread: main]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 16:45:24
+[INFO]-[Thread: Thread-3]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:45:24
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 16:45:24
+[INFO]-[Thread: Thread-3]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 16:47:04
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 16:47:04
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 11576 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:47:04
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:47:04
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:47:04
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:47:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 16:47:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 1472 ms
+
+2019-05-15 16:47:06
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:47:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:47:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 16:47:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 16:47:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 2.992 seconds (JVM running for 4.531)
+
+2019-05-15 16:47:11
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 16:47:11
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 6 ms
+
+2019-05-15 16:47:33
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 16:47:33
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 16:48:10
+[INFO]-[Thread: Thread-12]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:48:10
+[INFO]-[Thread: Thread-12]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 16:48:10
+[INFO]-[Thread: Thread-12]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 16:48:13
+[WARN]-[Thread: http-nio-8081-exec-4]-[org.springframework.jdbc.support.SQLErrorCodesFactory.<init>()]: Error loading SQL error codes from config file
+org.springframework.beans.factory.BeanDefinitionStoreException: Unexpected exception parsing XML document from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]; nested exception is java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [META-INF/services/org.apache.xerces.xni.parser.XMLParserConfiguration]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:419)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:112)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.<clinit>(SQLErrorCodesFactory.java:70)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:136)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:99)
+	at org.mybatis.spring.MyBatisExceptionTranslator.initExceptionTranslator(MyBatisExceptionTranslator.java:87)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:72)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy64.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy68.saveUser(Unknown Source)
+	at cn.edu.seu.driverserver.service.Impl.UserServiceImpl.install(UserServiceImpl.java:65)
+	at cn.edu.seu.driverserver.controller.UserController.doInstall(UserController.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [META-INF/services/org.apache.xerces.xni.parser.XMLParserConfiguration]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1383)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1113)
+	at org.apache.xerces.parsers.SecuritySupport$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.xerces.parsers.SecuritySupport.getResourceAsStream(Unknown Source)
+	at org.apache.xerces.parsers.ObjectFactory.findJarServiceProvider(Unknown Source)
+	at org.apache.xerces.parsers.ObjectFactory.createObject(Unknown Source)
+	at org.apache.xerces.parsers.ObjectFactory.createObject(Unknown Source)
+	at org.apache.xerces.parsers.DOMParser.<init>(Unknown Source)
+	at org.apache.xerces.parsers.DOMParser.<init>(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.<init>(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderFactoryImpl.newDocumentBuilder(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.createDocumentBuilder(DefaultDocumentLoader.java:131)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:434)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 70 more
+
+2019-05-15 16:48:13
+[WARN]-[Thread: http-nio-8081-exec-4]-[org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes()]: Error while extracting database name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:214)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:136)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:99)
+	at org.mybatis.spring.MyBatisExceptionTranslator.initExceptionTranslator(MyBatisExceptionTranslator.java:87)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:72)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy64.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy68.saveUser(Unknown Source)
+	at cn.edu.seu.driverserver.service.Impl.UserServiceImpl.install(UserServiceImpl.java:65)
+	at cn.edu.seu.driverserver.controller.UserController.doInstall(UserController.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	... 68 more
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:96)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 69 more
+
+2019-05-15 16:48:15
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:48:15
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:48:15
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 11576 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:48:15
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:48:15
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 16:48:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 540 ms
+
+2019-05-15 16:48:16
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:48:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:48:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 16:48:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 16:48:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 0.851 seconds (JVM running for 73.747)
+
+2019-05-15 16:48:16
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 16:49:17
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 16:49:17
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 7 ms
+
+2019-05-15 16:49:23
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-2 - Starting...
+
+2019-05-15 16:49:23
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-2 - Start completed.
+
+2019-05-15 16:49:58
+[INFO]-[Thread: Thread-20]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:49:58
+[INFO]-[Thread: Thread-20]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-2 - Shutdown initiated...
+
+2019-05-15 16:49:58
+[INFO]-[Thread: Thread-20]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-2 - Shutdown completed.
+
+2019-05-15 16:49:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:49:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:49:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 11576 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:49:59
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:50:05
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 16:50:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 1092 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:50:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:50:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:50:05
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:50:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 16:50:06
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 1333 ms
+
+2019-05-15 16:50:07
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:50:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:50:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 16:50:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 16:50:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 2.352 seconds (JVM running for 3.676)
+
+2019-05-15 16:50:42
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 16:50:42
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 6 ms
+
+2019-05-15 16:50:44
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 16:50:44
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 16:50:58
+[ERROR]-[Thread: http-nio-8081-exec-1]-[org.thymeleaf.TemplateEngine.process()]: [THYMELEAF][http-nio-8081-exec-1] Exception processing template "doInstall": Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-15 16:51:07
+[INFO]-[Thread: Thread-11]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:51:07
+[INFO]-[Thread: Thread-11]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 16:51:07
+[INFO]-[Thread: Thread-11]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 16:51:08
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:51:08
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:51:08
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 1092 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:51:08
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:51:08
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 16:51:08
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 486 ms
+
+2019-05-15 16:51:09
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:51:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:51:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 16:51:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 16:51:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 0.765 seconds (JVM running for 65.28)
+
+2019-05-15 16:51:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 16:52:37
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 16:52:37
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 9 ms
+
+2019-05-15 16:52:44
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-2 - Starting...
+
+2019-05-15 16:52:44
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-2 - Start completed.
+
+2019-05-15 16:52:44
+[ERROR]-[Thread: http-nio-8081-exec-1]-[org.thymeleaf.TemplateEngine.process()]: [THYMELEAF][http-nio-8081-exec-1] Exception processing template "doInstall": Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-15 16:53:44
+[ERROR]-[Thread: http-nio-8081-exec-4]-[org.thymeleaf.TemplateEngine.process()]: [THYMELEAF][http-nio-8081-exec-4] Exception processing template "doInstall": Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [doInstall], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-15 16:53:51
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 16:53:52
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 5288 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:53:52
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:53:52
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:53:52
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:53:53
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 16:53:53
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 1682 ms
+
+2019-05-15 16:53:54
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:53:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:53:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 16:53:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 16:53:54
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 2.686 seconds (JVM running for 3.915)
+
+2019-05-15 16:54:07
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 16:54:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 13308 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:54:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:54:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:54:07
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:54:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 16:54:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 1334 ms
+
+2019-05-15 16:54:09
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:54:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:54:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 16:54:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 16:54:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 2.359 seconds (JVM running for 3.985)
+
+2019-05-15 16:54:12
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 16:54:12
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 6 ms
+
+2019-05-15 16:54:17
+[INFO]-[Thread: http-nio-8081-exec-3]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 16:54:17
+[INFO]-[Thread: http-nio-8081-exec-3]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 16:59:11
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-15 16:59:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 4684 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 16:59:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 16:59:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 16:59:11
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 16:59:12
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 16:59:12
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 1328 ms
+
+2019-05-15 16:59:13
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 16:59:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 16:59:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 16:59:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 16:59:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 2.32 seconds (JVM running for 3.671)
+
+2019-05-15 16:59:16
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 16:59:16
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 7 ms
+
+2019-05-15 16:59:16
+[WARN]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException()]: Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+
+2019-05-15 16:59:28
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Starting...
+
+2019-05-15 16:59:28
+[INFO]-[Thread: http-nio-8081-exec-4]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-1 - Start completed.
+
+2019-05-15 17:00:09
+[INFO]-[Thread: Thread-11]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 17:00:09
+[INFO]-[Thread: Thread-11]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown initiated...
+
+2019-05-15 17:00:09
+[INFO]-[Thread: Thread-11]-[com.zaxxer.hikari.HikariDataSource.close()]: HikariPool-1 - Shutdown completed.
+
+2019-05-15 17:00:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 17:00:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 17:00:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 4684 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 17:00:09
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 554 ms
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 0.879 seconds (JVM running for 60.843)
+
+2019-05-15 17:00:10
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 17:00:10
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 17:00:10
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 10 ms
+
+2019-05-15 17:00:13
+[INFO]-[Thread: Thread-19]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 17:00:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-15 17:00:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-15 17:00:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 4684 (E:\Desktop\driver\driverserver\target\classes started by hzl in E:\Desktop\driver\driverserver)
+
+2019-05-15 17:00:13
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 474 ms
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 0.72 seconds (JVM running for 64.62)
+
+2019-05-15 17:00:14
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged
+
+2019-05-15 17:00:16
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Initializing Servlet 'dispatcherServlet'
+
+2019-05-15 17:00:16
+[INFO]-[Thread: http-nio-8081-exec-1]-[org.springframework.web.servlet.FrameworkServlet.initServletBean()]: Completed initialization in 6 ms
+
+2019-05-15 17:00:16
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-2 - Starting...
+
+2019-05-15 17:00:16
+[INFO]-[Thread: http-nio-8081-exec-1]-[com.zaxxer.hikari.HikariDataSource.getConnection()]: HikariPool-2 - Start completed.
+
+2019-05-15 17:00:29
+[ERROR]-[Thread: http-nio-8081-exec-3]-[cn.edu.seu.driverserver.controller.UserController.doLogin()]: adminNo SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+
+2019-05-15 17:00:29
+[ERROR]-[Thread: http-nio-8081-exec-3]-[org.thymeleaf.TemplateEngine.process()]: [THYMELEAF][http-nio-8081-exec-3] Exception processing template "doLogin": Error resolving template [doLogin], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [doLogin], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-05-15 17:01:33
+[ERROR]-[Thread: http-nio-8081-exec-4]-[cn.edu.seu.driverserver.controller.UserController.doLogin()]: adminNo SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+
+2019-05-15 17:01:33
+[ERROR]-[Thread: http-nio-8081-exec-4]-[org.thymeleaf.TemplateEngine.process()]: [THYMELEAF][http-nio-8081-exec-4] Exception processing template "doLogin": Error resolving template [doLogin], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [doLogin], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)

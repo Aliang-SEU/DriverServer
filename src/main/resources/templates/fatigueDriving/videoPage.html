@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh_CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Title</title>
+
+    <link rel="stylesheet" th:href="@{/js/plugins/layui/css/layui.css}" media="all">
+    <link rel="stylesheet" th:href="@{/js/plugins/layer/theme/default/layer.css}" media="all">
+    <link rel="stylesheet" th:href="@{/js/plugins/font-awesome/css/font-awesome.min.css}" media="all">
+</head>
+<body>
+
+<div class="layui-container" style="width: 100%;">
+    <div class="layui-row">
+        <div class="layui-col-md12" style="padding:5px;">
+            <div class="layui-card">
+                <div class="layui-card-header" style="padding: 5px;">
+                    <div class="layui-row">
+                        <div class="layui-col-md6" style="padding:5px;">
+                            <form class="layui-form layui-form-pane" action="">
+                                <div class="layui-form-item">
+                                    <div class="layui-inline">
+                                        <label class="layui-form-label">设备选择</label>
+                                        <div class="layui-input-block">
+                                            <select id="deviceId" name="device" lay-filter="deviceId">
+                                                <option th:each="device,iterStat:${deviceList}" th:value="${device.deviceId}" th:text="${device.deviceName}"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="layui-inline">
+                                        <label class="layui-form-label">查询类型</label>
+                                        <div class="layui-input-block">
+                                            <select id="videoType" name="interest" lay-filter="type">
+                                                <option value="0" >录像</option>
+                                                <option value="1" selected>疲劳行为</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="layui-col-md1" style="padding:5px;">
+                            <button id="queryBtn" class="layui-btn" >查询</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-card-body">
+                    <div class="layui-row">
+                        <div class="layui-card-body">
+                            <div class="file-list-side">
+                                <span class="layui-breadcrumb" id="path-side">
+
+                                </span>
+                            </div>
+
+                            <hr class="layui-bg-gray">
+                            <table id="demo" lay-filter="test">
+
+                            </table>
+
+                            <script type="text/html" id="barDemo">
+                                <a class="layui-btn layui-btn-xs" lay-event="show">查看</a>
+                                <a class="layui-btn layui-btn-xs" lay-event="del">删除</a>
+                            </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+<script th:src="@{/js/jquery.min.js}"></script>
+<script th:src="@{/js/plugins/layer/layer.js}"></script>
+<script th:src="@{/js/plugins/layui/layui.js}"></script>
+
+<script type="text/javascript">
+
+    var baseUrl = '/getVideos/';
+    var getUrl = '/getVideos/1/1';
+
+    layui.use(['form','layer'], function () {
+        var form = layui.form, layer = layui.layer;
+
+        //监听下拉框事件
+        form.on('select(deviceId)', function(data){
+            getUrl = baseUrl + data.value + '/' + $('#videoType').val()
+            console.log(getUrl)
+        })
+
+        //监听下拉框事件
+        form.on('select(type)', function(data){
+            getUrl = baseUrl + $('#deviceId').val() + '/' + data.value
+            console.log(getUrl)
+        })
+    });
+
+    $(document).on('click','#queryBtn',function(){
+        layui.use('table', function(){
+            var table = layui.table;
+            //第一个实例
+            table.render({
+                elem: '#demo'
+                , height: 500
+                , url: getUrl //数据接口
+                , method:'GET'
+                , page: true //开启分页
+                , cols: [//必须换行写
+                    [{field: 'videoId', title: 'ID', width: 80, sort: false, fixed: 'left'}
+                        , {field: 'videoUrl', title: '文件地址', width: 600}
+                        , {field: 'createTime', title: '上传时间', width: 200, sort: true},
+                        ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:150}
+                    ]]
+                , response: {
+                    statusCode: 200
+                },parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
+                    if(res.respCode === 200){
+                        return {
+                            "code": res.respCode, //解析接口状态
+                            "msg": res.respMsg, //解析提示文本
+                            "count": res.data, //解析数据长度
+                            "data": res.listData //解析数据列表
+                        };
+                    }else{
+                        layer.msg(res.respMsg)
+                        return {
+                            "code":400
+                        }
+                    }
+                }
+            });
+        });
+    });
+
+    layui.use('table', function(){
+        var table = layui.table;
+        //第一个实例
+        table.render({
+            elem: '#demo'
+            , height: 500
+            , url: getUrl //数据接口
+            , method:'GET'
+            ,page: { //支持传入 laypage 组件的所有参数（某些参数除外，如：jump/elem） - 详见文档
+                layout: ['count', 'prev', 'page', 'next', 'limit', 'refresh', 'skip']//自定义分页布局
+                ,limits:[5,10,15]
+                ,first: false //不显示首页
+                ,last: false //不显示尾页
+              }
+            , cols: [//必须换行写
+                [{field: 'videoId', title: 'ID', width: 80, sort: false, fixed: 'left'}
+                    , {field: 'videoUrl', title: '文件地址', width: 600}
+                    , {field: 'createTime', title: '上传时间', width: 200, sort: true},
+                    ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:150}
+                ]]
+            , response: {
+                statusCode: 200
+            },parseData: function (res) { //将原始数据解析成 table 组件所规定的数据
+                    if(res.respCode === 200){
+                        return {
+                            "code": res.respCode, //解析接口状态
+                            "msg": res.respMsg, //解析提示文本
+                            "count": res.data, //解析数据长度
+                            "data": res.listData //解析数据列表
+                        };
+                    }else{
+                        layer.msg(res.respMsg)
+                        return {
+                            "code":400
+                        }
+                    }
+            }
+        });
+
+        //监听行工具事件
+        table.on('tool(test)', function(obj){
+            var data = obj.data;
+            var url = data.videoUrl + '?download=0';
+            console.log(obj)
+            if(obj.event === 'show'){
+                //iframe层
+                layer.open({
+                    type: 2,
+                    title: '查看',
+                    shadeClose: true,
+                    shade: 0.8,
+                    area: ['800px', '90%'],
+                    content: url //iframe的url
+                });
+            }
+        });
+    });
+</script>
+</html>

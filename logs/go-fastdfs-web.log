@@ -1,0 +1,81 @@
+
+2019-05-14 17:17:47
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.14.Final
+
+2019-05-14 17:17:47
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 13600 (E:\driverserver\driverserver\target\classes started by hzl in E:\driverserver\driverserver)
+
+2019-05-14 17:17:47
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-14 17:17:47
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-14 17:17:47
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-14 17:17:48
+[WARN]-[Thread: restartedMain]-[org.mybatis.spring.mapper.ClassPathMapperScanner.doScan()]: No MyBatis mapper was found in '[cn.edu.seu.driverserver]' package. Please check your configuration.
+
+2019-05-14 17:17:50
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-14 17:17:50
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 2431 ms
+
+2019-05-14 17:17:50
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-14 17:17:50
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-14 17:17:51
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-14 17:17:51
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-14 17:17:51
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 3.837 seconds (JVM running for 4.659)
+
+2019-05-14 17:19:33
+[INFO]-[Thread: Thread-6]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown()]: Shutting down ExecutorService 'applicationTaskExecutor'
+
+2019-05-14 17:19:34
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+
+2019-05-14 17:19:34
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.logging.DeferredLog.logTo()]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+
+2019-05-14 17:19:34
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarting()]: Starting DriverserverApplication on DESKTOP-ALCHGHN with PID 13600 (E:\driverserver\driverserver\target\classes started by hzl in E:\driverserver\driverserver)
+
+2019-05-14 17:19:34
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.SpringApplication.logStartupProfileInfo()]: No active profile set, falling back to default profiles: default
+
+2019-05-14 17:19:34
+[WARN]-[Thread: restartedMain]-[org.mybatis.spring.mapper.ClassPathMapperScanner.doScan()]: No MyBatis mapper was found in '[cn.edu.seu.driverserver]' package. Please check your configuration.
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize()]: Tomcat initialized with port(s): 8081 (http)
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext()]: Root WebApplicationContext: initialization completed in 650 ms
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize()]: Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>()]: Adding welcome page template: index
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer()]: LiveReload server is running on port 35729
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start()]: Tomcat started on port(s): 8081 (http) with context path ''
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.StartupInfoLogger.logStarted()]: Started DriverserverApplication in 1.03 seconds (JVM running for 108.993)
+
+2019-05-14 17:19:35
+[INFO]-[Thread: restartedMain]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent()]: Condition evaluation unchanged

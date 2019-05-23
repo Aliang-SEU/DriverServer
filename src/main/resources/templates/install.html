@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh_CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>系统设置</title>
+    <link rel="stylesheet" th:href="@{/css/install.css}" media="all">
+    <link rel="stylesheet" th:href="@{/js/plugins/layui/css/layui.css}" media="all">
+    <link rel="stylesheet" th:href="@{/js/plugins/layer/theme/default/layer.css}" media="all">
+</head>
+<body class="install-bg">
+<div class="install">
+    <div class="message">第一次系统设置</div>
+    <div id="darkbannerwrap"></div>
+    <form method="post" class="layui-form" action="/doInstall">
+        <!--<input name="serverName" placeholder="集群名称"  type="text" lay-verify="required" class="layui-input" >-->
+        <!--<span>如:集群1</span>-->
+        <!--<hr class="hr15">-->
+        <!--<input name="groupName" placeholder="组名称"  type="text" class="layui-input" >-->
+        <!--<span>如:group1,未开启组支持请不要填写!</span>-->
+        <hr class="hr15">
+        <input name="server" placeholder="文件服务器地址" type="text" lay-verify="required" class="layui-input">
+        <span>如:http://127.0.0.1:8080</span>
+        <hr class="hr15">
+        <input name="account" lay-verify="required" placeholder="用户名" type="text" class="layui-input">
+        <hr class="hr15">
+        <input name="username" lay-verify="required" placeholder="登录账户" type="text" class="layui-input">
+        <hr class="hr15">
+        <input name="password" lay-verify="required" placeholder="登录密码" type="password" class="layui-input">
+        <hr class="hr15">
+        <input class="installin" value="设置完毕" lay-submit lay-filter="install" style="width:100%;" type="submit">
+    </form>
+</div>
+
+<script th:src="@{/js/jquery.min.js}"></script>
+<script th:src="@{/js/plugins/layer/layer.js}"></script>
+<script th:src="@{/js/plugins/layui/layui.js}"></script>
+<script type="text/javascript">
+    layui.use(['form', 'jquery', 'layer'], function () {
+        var form = layui.form, $ = layui.jquery, layer = layui.layer;
+        form.on('submit(install)', function (data) {
+            //post请求发送给
+            $.post("/doInstall", data.field, function (result) {
+                console.log(result);
+                if (result.respCode === 200) {
+                    location.href = '/login';
+                } else if(result.respCode === 300){
+                    layer.msg(result.respMsg);
+                    location.href = '/login';
+                }else {
+                    layer.msg(result.respMsg);
+                }
+            });
+            return false;
+        });
+    });
+</script>
+</body>
+</html>
